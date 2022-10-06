@@ -2,13 +2,39 @@
 
 ## 💻 Sobre o projeto
 
-
+O Labook é uma rede social com o objetivo de promover a conexão e interação entre seus mais diversos usuários. As pessoas poderão criar e curtir publicações.
 
 ---
 
 ## ⚙️ Funcionalidades
 
+### Endpoint signup
 
+Endpoint para cadastrar o usuário através da inserção dos dados nome, e-mail e senha.
+
+### Endpoint login
+
+Endpoint para logar o usuário já cadastrado no sistema através da inserção do e-mail e da senha.
+
+### Endpoint createPost
+
+Endpoint para criar post.
+
+### Endpoint getPosts
+
+Endpoint para listar todos os posts já cadastrados no sistema.
+
+### Endpoint deletePost
+
+Endpoint para deletar um post. Admins podem deletar qualquer post enquanto contas normais só podem deletar seus próprios posts.
+
+### Endpoint addLike
+
+Endpoint para dar like no post. Uma mesma pessoa não pode dar mais de um like em um post.
+
+### Endpoint removeLike
+
+Endpoint para remover like do post.
 
 ---
 
